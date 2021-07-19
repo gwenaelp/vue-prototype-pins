@@ -54,6 +54,7 @@ export default {
   pointer-events: none;
   display: inline-flex;
   background: #3850b7;
+  min-width: 450px;
   padding: 10px;
   margin-left: 20px;
   border-radius: 4px;
