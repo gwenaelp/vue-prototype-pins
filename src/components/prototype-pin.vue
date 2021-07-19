@@ -33,6 +33,7 @@ export default {
   width: 17px;
   height: 17px;
   position: absolute;
+  z-index: 100;
 }
 .dot {
   background: red;
@@ -42,14 +43,17 @@ export default {
   padding-top: 0px;
   font-size: 14px;
   font-family: monospace;
-  display: block;
+  display: inline-block;
+  padding-left: 3px;
+  padding-right: 3px;
   animation: pulse-red 2s infinite;
 }
 .help-content {
   opacity: 0;
+  z-index: 101;
   pointer-events: none;
   display: inline-flex;
-  background: blue;
+  background: #3850b7;
   padding: 10px;
   margin-left: 20px;
   border-radius: 4px;
